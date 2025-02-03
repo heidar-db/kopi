@@ -25,7 +25,7 @@
 			include 'admin/template/header.php';
 			include 'admin/template/sidebar.php';
 				if(!empty($_GET['page'])){
-					include 'admin/module/'.$_GET['page'].'/index.php';
+					include 'admin/module/'.$_GET['page'].'/darmo.php';
 				}else{
 					include 'admin/template/home.php';
 				}
